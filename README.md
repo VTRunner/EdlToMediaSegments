@@ -11,7 +11,7 @@ This is my solution for https://features.jellyfin.org/posts/180/support-for-edl-
 
 In Jellyfin, go to http://localhost:8096/web/#/dashboard/plugins/repositories and add
 
-`https://raw.githubusercontent.com/rrhett/EdlToMediaSegments/refs/heads/main/manifest.json`
+`https://raw.githubusercontent.com/vtrunner/EdlToMediaSegments/refs/heads/main/manifest.json`
 
 2. Install the EdlToMediaSegments plugin from the Metadata section.
 3. Restart Jellyfin.
