@@ -1,6 +1,6 @@
-using Jellyfin.Data.Enums;
-using MediaBrowser.Controller;
+using Jellyfin.Database.Implementations.Enums;
 using MediaBrowser.Controller.Entities;
+using MediaBrowser.Controller.MediaSegments;
 using MediaBrowser.Controller.Persistence;
 using MediaBrowser.Model;
 using MediaBrowser.Model.MediaSegments;
