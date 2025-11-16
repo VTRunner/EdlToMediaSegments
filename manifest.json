@@ -10,10 +10,10 @@
             {
                 "checksum": "6df700ed7e3fd02310dac1f06f1ee68a",
                 "changelog": "Initial release.",
-                "targetAbi": "10.10.6.0",
+                "targetAbi": "10.11.2.0",
                 "sourceUrl": "https://github.com/rrhett/EdlToMediaSegments/releases/download/v1.0.0.0/EdlToMediaSegments-v1.0.0.0.zip",
-                "timestamp": "2025-09-09T23:04:45-07:00",
-                "version": "1.0.0.0"
+                "timestamp": "2025-11-16T23:04:45-07:00",
+                "version": "1.0.0.1"
             }
         ]
     }
