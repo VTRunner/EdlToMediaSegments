@@ -47,10 +47,11 @@ public class EdlToMediaSegmentsProvider(
     public static List<MediaSegmentDto> ParseSegments(string[] lines, Guid id, ILogger logger)
     {
         var segments = new List<MediaSegmentDto>();
-
+        char[] edlseparators = [' ', '\t'];
+        
         foreach (var line in lines)
         {
-            var parts = line.Split(' ');
+            var parts = line.Split(edlseparators, StringSplitOptions.RemoveEmptyEntries);
             if (parts.Length != 3)
             {
                 logger.LogWarning("EDL line '{Line}' is not in the correct format", line);
