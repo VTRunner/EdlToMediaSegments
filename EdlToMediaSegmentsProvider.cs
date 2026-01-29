@@ -38,7 +38,7 @@ public class EdlToMediaSegmentsProvider(
             logger.LogDebug("EDL file {EdlFilePath} does not exist for item {ItemId}", edlFilePath, request.ItemId);
             return [];
         }
-        logger.LogInformation("Found EDL file {EdlFilePath} for item {ItemId}", edlFilePath, request.ItemId);
+        logger.LogDebug("Found EDL file {EdlFilePath} for item {ItemId}", edlFilePath, request.ItemId);
         
         // Read EDL file and parse the segments.
         return ParseSegments(await Task.Run(() => File.ReadAllLines(edlFilePath), cancellationToken), item.Id, logger);
